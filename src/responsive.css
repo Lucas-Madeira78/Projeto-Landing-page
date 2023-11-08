@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+    body {
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .info {
+        margin: 0;
+        align-self: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    nav { 
+        align-self: center;
+    }
+
+    ul {
+        margin: 0;
+    }
+}
