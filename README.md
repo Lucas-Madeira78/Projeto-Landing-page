@@ -17,8 +17,6 @@ Esta é uma solução para o [desafio da Huddle com seção introdutória única
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
-
 ## Visão geral
 
 ### O desafio
@@ -65,6 +63,7 @@ Os usuários devem ser capazes de:
       Create connections with your users as you engage in genuine discussion.</p>
 
       <a class="button" href="#">Register</a>
+      
     </div>
 
 </div>
