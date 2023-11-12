@@ -1,111 +1,95 @@
-# Frontend Mentor - Huddle landing page with single introductory section solution
+# Solução para quest Huddle landing page com seção introdutória única usado pelo curso Devquest
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+Esta é uma solução para o [desafio da Huddle com seção introdutória única no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Desafio feito pelo curso Devquest para testar as habilidades de HTML5 e CSS do aluno.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## Índice
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Visão geral](#visão-geral)
+   - [O desafio](#o-desafio)
+   - [Captura de tela](#captura-de-tela)
+   - [Links](#links)
+- [Meu processo](#meu-processo)
+   - [Construído com](#construído-com)
+   - [O que aprendi](#o-que-aprendi)
+   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+   - [Recursos úteis](#useful-resources)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
 
-## Overview
+**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
 
-### The challenge
+## Visão geral
 
-Users should be able to:
+### O desafio
 
-- View the optimal layout for the page depending on their device's screen size
-- See hover states for all interactive elements on the page
+Os usuários devem ser capazes de:
 
-### Screenshot
+- Ver o layout ideal da página dependendo do tamanho da tela do dispositivo
+- Ver os estados de foco para todos os elementos interativos na página
 
-![](./screenshot.jpg)
+### Capturas de tela
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](src/images/Captura-de-tela-desktop.png)
+![](src/images/Captura-de-tela-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL da solução: [CLIQUE AQUI](https://lucas-madeira78.github.io/Projetos-e-quests/)
 
-## My process
+## Meu processo
 
-### Built with
+### Construído com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Marcação HTML5 semântica
+- Propriedades personalizadas CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Fluxo de trabalho voltado para dispositivos móveis
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### O que eu aprendi
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+* Criar DIVs de forma semantica para ter um código organizado e fácil de ler.
+* Utilizar flexbox para centralizar e flexibilizar os elementos.
+* Utilizar @media para tornar o site responsivo.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="container">
+
+  <img class="illustration" src="src/images/illustration-mockups.svg" alt="illustration">
+
+    <div class="info">
+
+      <h1 class="text">Build The Community Your Fans Will Love</h1>
+
+      <p class="text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion.</p>
+
+      <a class="button" href="#">Register</a>
+    </div>
+
+</div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+```css
+@media (max-width: 1000px) {
+    body {
+        background-image: url(images/bg-mobile.svg);
+        background-size: cover;
+    }
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### Desenvolvimento contínuo
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Desejo me aperfeiçoar na aprendizagem de flexbox e a organização das tags HTML a fim de melhorar meu código e estilização, assim como me aprofundar na linguagem Javascript e tornar meus projetos mais dinâmicos.
 
-### Continued development
+### Recursos úteis
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [Font Awesome](https://fontawesome.com) - Me ajudou a encontrar e estilizar de forma prática os ícones que desejei.
