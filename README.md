@@ -14,8 +14,6 @@ Esta é uma solução para o [desafio da Huddle com seção introdutória única
    - [O que aprendi](#o-que-aprendi)
    - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
    - [Recursos úteis](#useful-resources)
-- [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão geral
 
