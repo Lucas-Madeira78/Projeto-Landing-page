@@ -80,3 +80,16 @@ nav {
     display: flex;
     align-self: flex-end;
 }
+
+.fa-brands {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+.button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
