@@ -4,6 +4,11 @@
         background-size: cover;
     }
 
+    .logo {
+        align-self: center;
+        margin: 0;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;
@@ -11,6 +16,7 @@
 
     .illustration {
         max-width: 350px;
+        margin: 0;
     }
 
     .text {
